@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'tieude';
+    src: url('../fonts/times-new-roman.ttf');
+  }
+  @font-face {
+    font-family: 'noidung';
+    src: url('../fonts/times-new-roman.ttf');
+  }
+  body{
+    background-color: #000002;
+    
+  }
+  h1{
+    font-family: tieude;
+    color: #d08f16;
+  }
+  p{
+    font-size: 20px;
+    font-family: noidung;
+    color: rgb(0, 0, 0);
+  }
+h4{
+  color: #fff;
+}
+#sukien1  .card-body p{
+  font-size: 18px;
+  text-align: left;
+  
+}
+#sukien1  .card{
+  padding: 15px;
+  
+}
+#sukien1 .noidungsk .nd-sk2 p{
+  font-size: 15px;
+  text-align: left;
+  
+}
+.bgc {
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+/* BANNER */
+
+#banner1 img {
+    
+}
+
+/* THANH MENUBAR */
+#menubar .bg-dark{
+    background-color: transparent!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #d08f16;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+/* MENUITEM */
+
+
+
+/* GÓC CHẾCH IN */
+#check-in .top{
+  margin-top: 50px;
+}
+
+
+/* FOOTER */
+
+#footter {
+  background-image: url("../img/layer337.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+#footter .card-text {
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+}
+#footter .card-title {
+  font-size: 30px;
+}
+
+
+
+                   /* TRANG GIỚI THIỆU */
+h3{
+  font-family: noidung;
+}
+
+
+              /* TRANG MELU */
+              #our_menu .container{
+                background-image: url("../img/background1.png");
+                background-size: cover;
+                width: 100%;
+                height: auto;
+              }
+
+
+              .page_title {
+                padding: 30px 0px;
+            }
+            .page_title h1 {
+                
+                font-weight: 700;
+                line-height: 2;
+                margin-bottom: 0;
+                position: relative;
+                text-transform: capitalize;
+            }
+            
+            /*Menu starts*/
+            .menu_tab {
+                margin: 0 auto;
+                justify-content: center;
+            }
+            .nav-item {
+                display: inline-block;
+                text-align: center;
+            }
+            .nav-tabs .nav-link{
+                transition: .3s;
+            }
+            .nav-tabs .nav-link.active {
+                background: #c0392b;
+                color: #fff;
+                font-weight: 700;
+                border: 1px solid #c0392b;
+                text-transform: capitalize;
+            }
+            .nav-link {
+                color: #000;
+            }
+            .nav-tabs .nav-link:hover {
+                background: #c0392b;
+                color: #fff;
+                border: 1px solid #c0392b;
+            }
+            .single_menu {
+                position: relative;
+                margin-bottom: 75px;
+                transition: .3s;
+            }
+            
+            .single_menu img {
+                width: 33%;
+                position: absolute;
+                height: 140px;
+                
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+            .menu_content {
+                padding-left: 200px;
+            }
+            .menu_content h4 {
+                font-size: 25px;
+                font-family: tieude;
+                border-bottom: 1px dashed #4e4d4c;
+                line-height: 2;
+                text-transform: capitalize;
+                color: white;
+            }
+            
+            .menu_content p {
+                font-weight: 200;
+                font-size: 16px;
+                letter-spacing: 1px;
+            }
+            .menu_btn.btn.btn-warning {
+                margin: 0 auto;
+                display: block;
+                width: 112px;
+                top: 140px;
+            }
+            /*Menu ends*/
+            .menu_btn.btn.btn-warning {
+              margin: 0 auto;
+              display: block;
+              width: 112px;
+            }
+            .btn.btn-warning {
+              
+              transition: .3s;
+              position: relative;
+              z-index: 1;
+              text-transform: capitalize;
+              font-weight: 700;
+              overflow: hidden;
+              
+            }
+            .btn.btn-warning::before {
+              position: absolute;
+              content: '';
+              
+              width: 100%;
+              height: 100%;
+              left: -100%;
+              top: 100%;
+              transition: .3s;
+              z-index: -1;
+            }
+            .btn.btn-warning:hover:before{
+                top: 0;
+                left: 0;
+            }
+            /* PHẢN HỒI KHÁCH HÀNG */
+            #phanhoi .container{
+              background-image: url("../img/Layer222.png");
+                background-size: cover;
+                width: 100%;
+                height: auto;
+            }
+.phanhoi-cki .container{
+  background-image: url("../img/bgi1.png");
+}
+
+  
